@@ -164,23 +164,7 @@ public class LogBook extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>                        
-//  public Connection getConnection()
-//    {
-//        Object con = null;       
-//        try 
-//        {        
-//            con = DriverManager.getConnection("jdbc:mysql://localhost:3308/contact_book?zeroDateTimeBehavior=CONVERT_TO_NULL ","root","");
-//           // JOptionPane.showMessageDialog(null,"Connected");
-//            return con;
-//        }        
-//        catch (SQLException ex)
-//        {
-//            Logger.getLogger(ContactBook2.class.getName()).log(Level.SEVERE, null, ex);
-//            JOptionPane.showMessageDialog(null,"Not Connected");
-//            return null;
-//            
-//        }     
-//    }
+
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
        //add entry
@@ -306,3 +290,8 @@ if (searchResults.length() == 0) {
     private javax.swing.JTextArea jTextArea2;
     // End of variables declaration                   
 }
+
+
+OUTPUT:
+
+![image](https://github.com/user-attachments/assets/90acca76-7152-410c-a0bb-71955d58bef2)
